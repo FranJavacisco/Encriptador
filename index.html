@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Francisco Lopez">
+  <title>Encriptador de Texto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Encriptador de Texto</h2>
+
+    <div class="input-container">
+      <label for="inputText">Texto a Encriptar/Desencriptar:</label>
+      <input type="text" id="inputText" placeholder="Ingresa tu texto">
+    </div>
+
+    <div class="input-container">
+      <label for="shift">Número de Desplazamiento:</label>
+      <input type="number" id="shift" placeholder="Ingresa un número de desplazamiento">
+    </div>
+
+    <div class="button-container">
+      <button onclick="encriptar()">Encriptar</button>
+      <button onclick="desencriptar()">Desencriptar</button>
+      <button onclick="limpiar()">Limpiar</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
